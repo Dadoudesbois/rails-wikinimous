@@ -1,0 +1,14 @@
+
+<div class="center form">
+  <%= form_for(article) do |f| %>
+    <div class="space">
+      <%= f.label :title %>
+      <%= f.text_field :title %>
+    </div>
+    <div class="space">
+      <%= f.label :content %>
+      <%= f.text_field :content %>
+    </div>
+      <%= f.submit %>
+  <% end %>
+</div>
